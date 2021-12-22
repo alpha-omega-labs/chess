@@ -1,14 +1,14 @@
 import { CONFIG } from '../config';
 const { NETWORK_CONFIG } = CONFIG;
 
-export const SUPPORTED_NETWORKS = [80001];
+export const SUPPORTED_NETWORKS = [29];
 
 export const rpcUrls = {
-  80001: 'https://matic-mumbai.chainstacklabs.com/',
+  29: 'https://rpc.genesisl1.org/',
 };
 
 export const networkNames = {
-  80001: 'Mumbai Testnet',
+  29: 'genesisL1',
 };
 
 export const pgn2gifURL = 'https://pgn2gif.glitch.me/thing';
