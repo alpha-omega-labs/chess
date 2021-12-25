@@ -16,15 +16,15 @@ import { getRpcUrl, logError } from '../utils/helpers';
 
 const StreamrClient = require('streamr-client');
 
-const nftaddress = '0x3d7285fB95677B9e128f00012106323ED9DA223E';
-const gameaddress = '0x08497541e044d71a65Daab444A640658D85371D5';
+const nftaddress = '0x1B4792286bdfD8700507D8E922207B12Ba9c7588';
+const gameaddress = '0x82f4e339F7a699EB1462F00F1C6d295629c49BF7';
 
 const providerOptions = {
   walletconnect: {
     package: WalletConnectProvider,
     options: {
       rpc: {
-        80001: getRpcUrl(80001),
+        29: getRpcUrl(29),
       },
     },
   },
