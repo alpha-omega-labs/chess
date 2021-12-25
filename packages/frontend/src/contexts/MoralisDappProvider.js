@@ -11,13 +11,13 @@ function MoralisDappProvider({ children }) {
   const [chainId, setChainId] = useState();
 
   const [gameAddress, setGameAddress] = useState(
-    '0xE62EE6D3B254DCB679Ba1550DAeFcAc12CDd94A6',
+    '0x82f4e339F7a699EB1462F00F1C6d295629c49BF7',
   );
   const [nftContract, setNftContract] = useState(
-    '0xabF0656be1AF77A403cAa10f7aa9DE7Cad836a9c',
+    '0x1B4792286bdfD8700507D8E922207B12Ba9c7588',
   );
   const [marketPlace, setMarketPlace] = useState(
-    '0x2c5bF8a13750A627484168F5C302742babA4Ede7',
+    '0x7BD96Db0aa7018928Bc146761B8F10B1f081B195',
   );
 
   const [gameContractABI, setGameContractABI] = useState(GameContract.abi);
